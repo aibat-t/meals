@@ -6,7 +6,6 @@ class MealDetailScreen extends StatelessWidget {
   const MealDetailScreen({super.key, required this.meal});
 
   final Meal meal;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
